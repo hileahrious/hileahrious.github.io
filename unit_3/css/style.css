@@ -1,0 +1,27 @@
+body {
+	/*background: url("https://live.staticflickr.com/1848/43493269985_8b66e26253_b.jpg");*/
+	background: url("https://live.staticflickr.com/3548/3435560440_17ce881b08_b.jpg");
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-align:center;
+	color:#ccc;
+	padding:50px;
+}
+h1 {
+	color:#000;
+	font-weight:bold;
+	font-size:78px;
+	line-height:5px;
+}
+
+h3 {
+	color:#000;
+	font-style: italic;
+}
+
+a {
+	color:#fa4359;
+}
+
+#contact {
+	font-weight:bolder;
+}

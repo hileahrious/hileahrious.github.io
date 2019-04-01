@@ -1,5 +1,10 @@
+title {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-	background-color:PaleTurquoise;
+	background-color: PaleTurquoise;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 h1, h3, p, {
@@ -8,4 +13,12 @@ h1, h3, p, {
 
 a {
 	color:Orchid;
+}
+
+#brand {
+	font-weight: bold;
+}
+
+.highlight {
+	text-transform: uppercase;
 }
