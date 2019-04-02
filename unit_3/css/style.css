@@ -1,18 +1,24 @@
 body {
-	/*background: url("https://live.staticflickr.com/1848/43493269985_8b66e26253_b.jpg");*/
-	background: url("https://live.staticflickr.com/3548/3435560440_17ce881b08_b.jpg");
-	background-size:cover;
+	background: url("https://live.staticflickr.com/4542/38098712215_9b2efb93c9_c.jpg");
+	/*url("https://live.staticflickr.com/1848/43493269985_8b66e26253_b.jpg"),*/ 
+	/*url("https://live.staticflickr.com/3548/3435560440_17ce881b08_b.jpg");*/
+	background-size: cover;
+	background-repeat: repeat;
+	/*background-blend-mode:multiply;*/
+	background-color:none;
+
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	text-align:center;
-	color:#ccc;
+	text-align:left;
+	color:#eee;
 	padding:50px;
 
 }
+
 h1 {
 	color:#000;
 	font-weight:bold;
 	font-size:78px;
-	line-height:5px;
+	line-height:0px;
 }
 
 h3 {
@@ -26,4 +32,31 @@ a {
 
 #contact {
 	font-weight:bolder;
+	background-color: #eee;
+	color:#000;
+	border:1px solid #000;
+	padding: 10px;
+	max-width:250px;
 }
+
+#brand {
+	font-weight:bolder;
+	color:#290038;
+	text-transform:lowercase;
+}
+
+ul {
+    text-align: left;
+    list-style-type: hangul-consonant;
+}
+
+p {
+	max-width:450px;
+}
+
+
+
+
+
+
+
