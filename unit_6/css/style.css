@@ -18,41 +18,40 @@ body {
 }
 
 div {
-	background-color: #FFE2B8;
+	background-color: #fff;
 }
 
 header {
-	background-color: #FFED74;
-	border: 1px black solid;
+	background-color: #fff;
 	padding: 20px;
 }
 
 nav {
-	background-color: #E8C66A;
+	background-color: #efefef;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 aside {
-	background-color: #FFC675;
+	background-color: #fff;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 section {
-	background-color: #FFE2B8;
+	background-color: #fff;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 article {
-	background-color: #E89C6C;
+	background-color: #eee;
 	border: 1px black solid;
 	padding: 20px;
 }
 
 footer {
-	background-color: #FF957E;
+	background-color: #fff;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -83,14 +82,23 @@ a {
 	color:#fa4359;
 }
 
-a.hover {
-	background-color:#000000;
+a:hover {
+	color:#000000;
 }
 
 .wrapper {
-	width:960px;
+	width: auto;
 	padding: 0px 15px;
 	margin: auto;
+}
+
+.clearfix:after {
+	visibility:hidden;
+	display: block;
+	font-size:0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 #contact {
@@ -99,7 +107,6 @@ a.hover {
 	background-color: #eee;
 	color:#000;
 	padding: 10px;
-	max-width:250px;
 }
 
 #brand {
@@ -113,6 +120,22 @@ a.hover {
 	font-size:larger;
 }
 
+#left {
+	background-color: #eee;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #efefef;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
 /*
 #quote {
 	font-weight:bolder;
@@ -122,12 +145,11 @@ a.hover {
 ul {
     text-align: left;
     list-style-type: hangul-consonant;
-    display: inline;
+    display: inline-block;
 }
 
 
 p {
-	max-width:450px;
 	display: block;
 }
 
