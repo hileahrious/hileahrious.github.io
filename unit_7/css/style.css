@@ -26,7 +26,7 @@ header {
 	background-color: #fff;
 	padding: 20px;
 	background: url("https://live.staticflickr.com/1887/43493268195_459d20d5c6_b.jpg");
-	background-size: unset;
+	background-size: contain;
 	background-position: right;
 }
 
