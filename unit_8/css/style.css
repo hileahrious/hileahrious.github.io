@@ -34,6 +34,21 @@ nav {
 	clear: both;
 }
 
+nav a {
+	color: #12003e;
+	display: block;
+	font-size: 1.3em;
+	font-weight: bold;
+	float: left;
+	padding: 20px;
+}
+
+nav a:hover {
+	color: #fa4359;
+	background-color: #eee;
+	opacity: .8;
+}
+
 article #header {
 	min-width: 150px;
 	background-color: #eeeeee;
@@ -84,22 +99,6 @@ h2, h3 {
 
 h4 {
 	font-variant: small-caps;
-}
-
-
-nav a {
-	color: #12003e;
-	display: block;
-	font-size: 1.3em;
-	font-weight: bold;
-	float: left;
-	padding: 20px;
-}
-
-nav a:hover {
-	color: #fa4359;
-	background-color: #eee;
-	opacity: .8;
 }
 
 a {
@@ -201,11 +200,20 @@ footer {
 	}
 
 	nav {
-		display: inline;
+		display: inline-block;
 		text-align: center;
 		font-size: 1.5em;
 		margin: 0 1.6em .75em 0;
 		float: none;
+	}
+
+	nav a {
+		color: #12003e;
+		display: block;
+		font-size: 1.3em;
+		font-weight: bold;
+		float: left;
+		padding: 20px;
 	}
 
 	h1 #brand {
@@ -241,12 +249,21 @@ footer {
 	}
 
 	nav {
-		display: inline;
+		display: inline-block;
 		width: auto;
 		text-align: center;
 		font-size: 1.5em;
 		margin: 0 1.6em .75em 0;
 		float: none;
+	}
+
+	nav a {
+		color: #12003e;
+		display: block;
+		font-size: 1.3em;
+		font-weight: bold;
+		float: left;
+		padding: 20px;
 	}
 
 
@@ -297,6 +314,15 @@ footer {
 		font-size: 1.3em;
 		margin: 0 1.6em .75em 0;
 		float: none;
+	}
+
+	nav a {
+		color: #12003e;
+		display: block;
+		font-size: 1.3em;
+		font-weight: bold;
+		float: left;
+		padding: 20px;
 	}
 
 	h1 #brand {
