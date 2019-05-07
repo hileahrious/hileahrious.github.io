@@ -212,9 +212,15 @@ footer {
 		display: inline-block;
 		font-size: 1.3em;
 		font-weight: bold;
-		float: left;
+		float: none;
 		padding: 20px;
 	}
+
+	nav a:hover {
+		color: #fa4359;
+		background-color: #eee;
+		opacity: .8;
+	}	
 
 	h1 #brand {
 		font-size: .5em;
@@ -262,9 +268,15 @@ footer {
 		display: inline-block;
 		font-size: 1.3em;
 		font-weight: bold;
-		float: left;
+		float: none;
 		padding: 20px;
 	}
+
+	nav a:hover {
+		color: #fa4359;
+		background-color: #eee;
+		opacity: .8;
+	}	
 
 
 	h1 #brand {
@@ -321,9 +333,15 @@ footer {
 		display: block;
 		font-size: 1.3em;
 		font-weight: bold;
-		float: left;
+		float: none;
 		padding: 20px;
 	}
+
+	nav a:hover {
+		color: #fa4359;
+		background-color: #eee;
+		opacity: .8;
+	}	
 
 	h1 #brand {
 		font-size: .5em;
