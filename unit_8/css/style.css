@@ -208,25 +208,6 @@ footer {
 		float: none;
 	}
 
-	nav a {
-		color: #12003e;
-		display: inline-block;
-		width: auto;
-		text-align: center;
-		font-size: 1.5em;
-		font-weight: bold;
-		float: none;
-		padding: 20px;
-	}
-
-	nav a:hover {
-		color: #fa4359;
-		width: auto;
-		text-align: center;
-		background-color: #eee;
-		opacity: .8;
-	}
-
 	h1 #brand {
 		font-size: .5em;
 		font-weight: bolder;
@@ -262,26 +243,12 @@ footer {
 	nav {
 		display: inline-block;
 		width: auto;
+		text-align: center;
 		font-size: 1.5em;
 		margin: 0 1.6em .75em 0;
 		float: none;
 	}
 
-	nav a {
-		color: #12003e;
-		display: inline-block;
-		font-size: 1.5em;
-		font-weight: bold;
-		float: none;
-		padding: 20px;
-		width: auto;
-	}
-
-	nav a:hover {
-		color: #fa4359;
-		background-color: #eee;
-		opacity: .8;
-	}
 
 	h1 #brand {
 		font-size: .5em;
@@ -327,24 +294,9 @@ footer {
 	nav {
 		display: block;
 		text-align: center;
-		font-size: 1em;
+		font-size: 1.3em;
 		margin: 0 1.6em .75em 0;
 		float: none;
-	}
-
-	nav a {
-		color: #12003e;
-		display: block;
-		font-size: 1em;
-		font-weight: bold;
-		float: none;
-		padding: 20px;
-	}
-
-	nav a:hover {
-		color: #fa4359;
-		background-color: #eee;
-		opacity: .8;
 	}
 
 	h1 #brand {
