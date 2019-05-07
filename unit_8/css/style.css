@@ -315,6 +315,7 @@ footer {
 	.column {
 		float: none;
 		width: auto;
+		text-align: center;
 	}
 }
 
@@ -380,6 +381,7 @@ footer {
 	.column {
 		float: none;
 		width: auto;
+		text-align: center;
 		padding: 5%;
 		margin: 5%;
 	}
