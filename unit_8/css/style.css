@@ -41,7 +41,8 @@ article #header {
 }
 
 img {
-	padding: 2px;
+	padding: 20px;
+	min-width: 150px;
 }
 
 
@@ -78,6 +79,7 @@ h2, h3 {
 	font-size: x-large;
 	font-family: 'Alice', serif;
 	line-height: 1.2em;
+	padding: 1% 0;
 }
 
 h4 {
@@ -142,11 +144,6 @@ a:hover {
 	margin: 0;
 }
 
-#title {
-	width: 350px;
-	padding: 10px;
-	margin: 10px;
-}
 
 #reading {
 	float: right;
@@ -198,7 +195,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1020px) {
 	body {
 		font-size: 14px;
 	}
@@ -206,6 +203,7 @@ footer {
 	nav {
 		display: inline-block;
 		text-align: center;
+		font-size: 1.5em;
 		margin: 0 1.6em .75em 0;
 		float: none;
 	}
@@ -215,7 +213,7 @@ footer {
 		display: inline-block;
 		width: auto;
 		text-align: center;
-		font-size: 1.3em;
+		font-size: 1.5em;
 		font-weight: bold;
 		float: none;
 		padding: 20px;
