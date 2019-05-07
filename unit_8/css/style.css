@@ -201,7 +201,7 @@ footer {
 	}
 
 	nav {
-		display: inline-block;
+		display: inline;
 		text-align: center;
 		font-size: 1.5em;
 		margin: 0 1.6em .75em 0;
@@ -241,7 +241,7 @@ footer {
 	}
 
 	nav {
-		display: inline-block;
+		display: inline;
 		width: auto;
 		text-align: center;
 		font-size: 1.5em;
