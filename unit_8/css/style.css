@@ -209,7 +209,7 @@ footer {
 
 	nav a {
 		color: #12003e;
-		display: block;
+		display: inline-block;
 		font-size: 1.3em;
 		font-weight: bold;
 		float: left;
@@ -259,7 +259,7 @@ footer {
 
 	nav a {
 		color: #12003e;
-		display: block;
+		display: inline-block;
 		font-size: 1.3em;
 		font-weight: bold;
 		float: left;
