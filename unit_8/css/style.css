@@ -258,6 +258,10 @@ footer a {
 		font-size: 1em;
 	}
 
+	#photography {
+		max-width: 125px;
+	}
+
 }
 
 
@@ -313,7 +317,7 @@ footer a {
 	}
 
 	img {
-		min-width: 150px;
+		max-width: 150px;
 		text-align: center;
 	}
 
@@ -327,7 +331,7 @@ footer a {
 
 	#photography {
 		float: none;
-		min-width: 125px;
+		max-width: 125px;
 	}
 
 	#more {
@@ -392,6 +396,11 @@ footer a {
 		margin: 5%;
 	}
 
+	#photography {
+		float: none;
+		min-width: 250px;
+	}
+
 	img {
 		min-width: 50px;
 		text-align: center;
@@ -415,11 +424,6 @@ footer a {
 		text-align: center;
 		padding: 5%;
 		margin: 5%;
-	}
-
-	#photography {
-		float: none;
-		min-width: 125px;
 	}
 
 	#more {
