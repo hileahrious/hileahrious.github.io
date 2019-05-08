@@ -28,7 +28,6 @@ header {
 
 nav {
 	font-weight: bolder;
-	border: 0px black solid;
 	padding: 2%;
 	float: right;
 	clear: both;
@@ -36,7 +35,6 @@ nav {
 
 nav a {
 	color: #12003e;
-	display: block;
 	font-size: 1.3em;
 	font-weight: bold;
 	float: left;
@@ -45,7 +43,6 @@ nav a {
 
 nav a:hover {
 	color: #fa4359;
-	display: block;
 	background-color: #eee;
 	opacity: .8;
 }
@@ -58,7 +55,7 @@ article #header {
 
 img {
 	padding: 20px;
-	max-width: 150px;
+	max-width: 250px;
 }
 
 article {
@@ -219,7 +216,6 @@ footer a {
 		display: inline-block;
 		text-align: center;
 		font-size: 1.5em;
-		margin: 0 1.6em .75em 0;
 		float: none;
 	}
 
@@ -230,12 +226,11 @@ footer a {
 		text-align: center;
 		font-weight: bold;
 		float: none;
-		padding: 20px;
+		padding: 10px;
 	}
 
 	nav a:hover {
 		color: #fa4359;
-		background-color: #eee;
 		opacity: .8;
 		text-align: center;
 	}	
@@ -256,7 +251,7 @@ footer a {
 	}
 
 	img {
-		max-width: 150px;
+		max-width: 250px;
 	}
 
 	p {
@@ -292,7 +287,6 @@ footer a {
 
 	nav a:hover {
 		color: #fa4359;
-		background-color: #eee;
 		opacity: .8;
 	}	
 
@@ -319,7 +313,7 @@ footer a {
 	}
 
 	img {
-		min-width: 100px;
+		min-width: 150px;
 		text-align: center;
 	}
 
@@ -378,7 +372,6 @@ footer a {
 
 	nav a:hover {
 		color: #fa4359;
-		background-color: #eee;
 		opacity: .8;
 	}	
 
