@@ -329,11 +329,6 @@ footer a {
 		margin: 5%;
 	}
 
-	#photography {
-		float: none;
-		max-width: 125px;
-	}
-
 	#more {
 		text-align: center;
 		border: 1px solid #ffffff;
@@ -396,13 +391,8 @@ footer a {
 		margin: 5%;
 	}
 
-	#photography {
-		float: none;
-		min-width: 250px;
-	}
-
 	img {
-		max-width: 150px;
+		max-width: 50px;
 		text-align: center;
 	}
 
