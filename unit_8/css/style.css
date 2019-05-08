@@ -360,7 +360,7 @@ footer a {
 		display: block;
 		text-align: center;
 		font-size: 1.3em;
-		margin: 0 1.6em .75em 0;
+		padding: 10%;
 		float: none;
 	}
 
@@ -370,7 +370,7 @@ footer a {
 		font-size: 1.3em;
 		font-weight: bold;
 		float: none;
-		padding: 20px;
+		padding: 10%;
 	}
 
 	nav a:hover {
@@ -397,12 +397,20 @@ footer a {
 	}
 
 	img {
-		min-width: 85px;
+		min-width: 50px;
 		text-align: center;
 	}
 
 	p {
 		font-size: 1.3em;
+		padding: 2%;
+	}
+
+	aside {
+		background-color: #fff;
+		text-align: center;
+		padding: 5%;
+		margin: 30% 15% 0 15%;
 	}
 
 	.column {
@@ -421,8 +429,8 @@ footer a {
 	#more {
 		text-align: center;
 		border: 1px solid #ffffff;
-		background-color: #fff;
-		padding: 2%;
+		background-color: #ffffff;
+		padding: 10%;
 		margin: 5%;
 		width: auto;
 		float: none;
@@ -430,6 +438,7 @@ footer a {
 
 	#more a:hover {
 		color: #fa4359;
+		background-color: #fff;
 		width: auto;
 	}
 
