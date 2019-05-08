@@ -45,6 +45,7 @@ nav a {
 
 nav a:hover {
 	color: #fa4359;
+	display: block;
 	background-color: #eee;
 	opacity: .8;
 }
@@ -57,7 +58,7 @@ article #header {
 
 img {
 	padding: 20px;
-	min-width: 10px;
+	max-width: 150px;
 }
 
 article {
@@ -226,6 +227,7 @@ footer a {
 		color: #12003e;
 		display: inline-block;
 		font-size: 1.3em;
+		text-align: center;
 		font-weight: bold;
 		float: none;
 		padding: 20px;
@@ -235,6 +237,7 @@ footer a {
 		color: #fa4359;
 		background-color: #eee;
 		opacity: .8;
+		text-align: center;
 	}	
 
 	h1 #brand {
@@ -253,7 +256,7 @@ footer a {
 	}
 
 	img {
-		min-width: 100px;
+		max-width: 150px;
 	}
 
 	p {
@@ -272,7 +275,6 @@ footer a {
 	nav {
 		display: inline-block;
 		width: auto;
-		text-align: center;
 		font-size: 1.5em;
 		margin: 0 1.6em .75em 0;
 		float: none;
@@ -281,6 +283,7 @@ footer a {
 	nav a {
 		color: #12003e;
 		display: inline-block;
+		text-align: center;
 		font-size: 1.3em;
 		font-weight: bold;
 		float: none;
@@ -359,7 +362,7 @@ footer a {
 	nav {
 		display: block;
 		text-align: center;
-		font-size: 1.3em;
+		font-size: .9em;
 		padding: 10%;
 		float: none;
 	}
@@ -367,7 +370,7 @@ footer a {
 	nav a {
 		color: #12003e;
 		display: block;
-		font-size: 1.3em;
+		text-align: center;
 		font-weight: bold;
 		float: none;
 		padding: 10%;
