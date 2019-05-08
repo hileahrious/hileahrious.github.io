@@ -392,7 +392,7 @@ footer a {
 	}
 
 	img {
-		min-width: 125px;
+		max-width: 125px;
 		text-align: center;
 	}
 
