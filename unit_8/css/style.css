@@ -402,7 +402,7 @@ footer a {
 	}
 
 	img {
-		min-width: 50px;
+		max-width: 150px;
 		text-align: center;
 	}
 
