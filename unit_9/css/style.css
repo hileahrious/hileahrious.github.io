@@ -163,6 +163,7 @@ q {
 #photography {
 	padding: .5%;
 	margin: .5%;
+	float: left;
 }
 
 #more {
@@ -413,11 +414,6 @@ footer a {
 		text-align: center;
 		padding: 5%;
 		margin: 5%;
-	}
-
-	#column2 {
-		text-align: left;
-		float: left;
 	}
 
 	#more {
