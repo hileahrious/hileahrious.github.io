@@ -163,6 +163,8 @@ q {
 #photography {
 	padding: .5%;
 	margin: .5%;
+	float: left;
+	clear: both;
 }
 
 #more {
